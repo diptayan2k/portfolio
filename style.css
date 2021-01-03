@@ -9,6 +9,35 @@ body {
     background-color:#333;
   }
 
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+
+  .smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+  }
+
+
+
 .output {
     text-align:center;
     font-family: 'Source Code Pro', monospace;
@@ -32,6 +61,7 @@ body {
     animation-name:blink;
     animation-duration:0.5s;
     animation-iteration-count: infinite;
+    
   }
   h1.cursor::after {
     height:24px;
