@@ -1,9 +1,11 @@
 .navbar-brand
 {
     font-weight:200;
-    font-size: 35px;
-    padding: 15px;
+    font-size: 30px;
+    
 }
+
+
 
 body {
     background-color:#333;
@@ -14,7 +16,8 @@ body {
     height: 8px;
     background: #ccc;
   }
-
+  
+  
   .smart-scroll{
     position: fixed;
     top: 0;
@@ -22,12 +25,13 @@ body {
     left: 0;
     z-index: 1030;
   }
+  /*
   .scrolled-down{
      transform:translateY(-100%); transition: all 0.3s ease-in-out;
   }
   .scrolled-up{
      transform:translateY(0); transition: all 0.3s ease-in-out;
-  }
+  }*/
   
   /* The progress bar (scroll indicator) */
   .progress-bar {
@@ -124,4 +128,27 @@ body {
 .about-me
 {
   color:blanchedalmond;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-table{
+  text-align: center;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+.gradient-border::after{
+  content: '';
+  
+  bottom: -1;
+  height: 2px;
+  width: 100%;
+  display: block;
+  background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
 }
