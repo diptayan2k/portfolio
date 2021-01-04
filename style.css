@@ -9,6 +9,8 @@
 
 body {
     background-color:#333;
+    background-color: #212529;
+    
   }
 
   .progress-container {
@@ -151,6 +153,12 @@ body {
   width: 100%;
   display: block;
   background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.btn:hover
+{
+  background-color: black !important;
+
 }
 
 /* Education Timeline */
@@ -413,9 +421,17 @@ body{
   .main-timeline .timeline:nth-child(2n) .timeline-content {
       width: 95%;
       text-align: center;
-      padding: 10px 0
+      padding: 10px 0;
   }
   .main-timeline .title {
       margin-bottom: 10px
+  }
+}
+
+.skill
+{
+  h4
+  {
+    font-weight:900 !important;
   }
 }
