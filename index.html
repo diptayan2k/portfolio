@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css" />
 
 
@@ -28,7 +30,7 @@
 
     <!--Header-->
     <header>
-        <div class="smart-scroll">
+        <div class="smart-scroll" style = "position: fixed;">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">&nbsp Diptayan Biswas</a>
@@ -64,14 +66,14 @@
         <br>
         <br>
         <br>
-        <img class="pic" src="images/diptayan.jpg" alt="" style="border-radius: 50%;">
+        <img class="pic"  src="images/diptayan.jpg" alt="" style="border-radius: 50%;">
         <br>
 
         <div class="output" id="output" style="height : 105px;">
             <h1 class="cursor" style="font-size: 29px;"></h1>
 
         </div>
-        <div class = "lmao">
+        <div class = "lmao" data-aos = "fade-up">
             <p class="profile-links">
 
 
@@ -179,7 +181,7 @@
     <div class="education" id="education" style="background-color:#343a40;">
         <br>
         <br>
-        <h1 class="section-heading" style="text-align : center; margin-top: 10px;"><span
+        <h1 class="section-heading" data-aos = "zoom-in" style="text-align : center; margin-top: 10px;"><span
                 style="color: blanchedalmond;/* border: 2px solid blanchedalmond;*/ padding: 8px 25px; border-radius: 6px;">
                 My Education</span></h1>
         <br>
@@ -189,14 +191,14 @@
             <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
-                    <div class="date-outer">
+                    <div class="date-outer"  data-aos="zoom-in">
                         <span class="date" style="z-index:1000;">
                             <span class="month" style=" color:cornsilk !important;">2017 - 2021</span>
                             <span class="year" style=" color:cornsilk !important;">4 Years</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content" data-aos="slide-left">
                     <h5 class="title"> KALYANI GOVERNMENT ENGINEERING COLLEGE</h5>
                     <p class="description">
                         <b>Bachelor of Technology in Computer Science</b><br>
@@ -211,14 +213,14 @@
             <div class="timeline ">
                 <div class="icon"></div>
                 <div class="date-content">
-                    <div class="date-outer">
+                    <div class="date-outer" data-aos="zoom-in">
                         <span class="date" style="z-index:1000;  color:cornsilk !important;">
                             <span class="month">2015 - 2017</span>
                             <span class="year" style=" color:cornsilk !important;">2 Years</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content" data-aos="slide-right">
                     <h5 class="title">KENDRIYA VIDYALAYA NO.2 ISHAPORE</h5>
                     <p class="description">
                         <b>Central Board of Secondary Education</b><br>
@@ -233,14 +235,14 @@
             <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
-                    <div class="date-outer">
+                    <div class="date-outer" data-aos="zoom-in">
                         <span class="date" style="z-index:1000; color:cornsilk !important;">
                             <span class="month">Upto</span>
                             <span class="year" style=" color:cornsilk !important;">2015</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content" data-aos="slide-left">
                     <h5 class="title">KENDRIYA VIDYALAYA NO.2 ISHAPORE</h5>
                     <p class="description">
                         <b>Central Board of Secondary Education</b><br>
@@ -266,11 +268,11 @@
 
 
     <!--Skills-->
-    <div class="skill" id="skill"
+    <div class="skill"  id="skill"
         style="color: rgb(233, 228, 221); min-width: 300px; padding:8%; padding-top:30px; line-height: 150%;">
 
 
-        <h1 class="section-heading" style="text-align : center; margin-top: 10px;"><span
+        <h1 class="section-heading" data-aos = "zoom-in" style="text-align : center; margin-top: 10px;"><span
                 style="/*border: 2px solid blanchedalmond;*/ padding: 8px 25px; border-radius: 6px;">
                 My Skills</span></h1>
         <br>
@@ -278,7 +280,7 @@
         <br>
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-left">
 
                 <table style=" border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -304,7 +306,7 @@
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-right">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -333,7 +335,7 @@
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-left">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -361,7 +363,7 @@
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-right">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -391,7 +393,7 @@
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-left">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -420,7 +422,7 @@
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos = "flip-right">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
                     <tr>
@@ -459,7 +461,7 @@
         <br>
         <br>
         <br>
-        <h1 class=" section-heading" style="text-align : center; margin-top: 10px;">
+        <h1 class=" section-heading" data-aos = "zoom-in" style="text-align : center; margin-top: 10px;">
             My Experience</h1>
 
         <div class="gfg"
@@ -940,6 +942,10 @@
 
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
